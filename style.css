@@ -55,7 +55,7 @@
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #40A6D1 !important;
+      background-color: #006666 !important;
       /*padding: 25px;*/
       border-bottom: 1px solid transparent;
       border-top-left-radius: 2px;
@@ -192,16 +192,74 @@
 
 
 
+
+.grid{margin:20px}
+.grid_title{border-radius:5px 5px 0 0; text-align:center; background:#057873; color:#fff; height:70px}
+
+
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}                 
+
+.lib-details{
+margin-top: 30px;
+line-height: 24px;
+font-size: 16px;
+text-align: justify;
+}
+
+.systems{
+ border: 2px solid #E6E7EC;
+margin-bottom: 30px;
+line-height: 25px;
+font-size: 17px;
+text-align: justify;
+}
+
+
+
+
+
 .margin{ margin-top: 40px }
 
 .border{ border: 2px solid #ededed; padding: 20px; }
 
+.myFooter {
+   background: #023131 ;
+    margin-top: 23px;
+    padding: 16px;
+    color: white;
+  }
 
-
-
-.fix{ overflow: hidden; }
-
-.footer_main_area{ background: linear-gradient(to bottom, #07827a 15%, #006666 80%);   }
-
-
-
+  .footer_left_logo img{ margin-left: 51px; width: 96px; height: 90px; }
+  /* end of the style footer 
+  ===============================
+  ===============================
+  */
+  
+  
+  
+  
+  /* start syllabus style
+  ===============================
+  ===============================
+  */
+ 
+ 
+.topic_headings{   color: #333;
+background: #DEE2DE none repeat scroll 0 0;
+border-left: 18px solid #5BA8C9;
+min-height: 61px;
+line-height: 60px;
+font-size: 25px;
+font-style: bold initial;
+font-style: italic;
+  }
+  
+  
+    /* end syllabus style
+  ================================
+  */
+  
+  
