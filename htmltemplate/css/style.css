@@ -155,6 +155,9 @@ h3 {
 
 }
 
+.content-title-white h3{
+    color:#fff;
+}
 .contebt-title h3 {
     font-size: 30px;
     font-weight: 700px;
@@ -327,10 +330,384 @@ h4.team-member-designation{
    color: #64707b;
     
 }
+.icon-white i{
+   color: #fff;
+    
+}
+
 .social-icon i:hover{
     color: #34c6d3;
 
 
 }
+
+/*============================================
+                   TESTIMONIAL
+================================================*/
+#testimonial-cover{
+  background-image: url("../img/bg-testimonials.jpg");
+    
+}
+#testimonials.content-box{
+    background-color: rgda(0,0,0,0.1);
+}
+#customers-testimonials {
+    padding: 50px 0;
+
+}
+.testimonial img{
+  max-width: 120px;
+  margin: 0 auto 0 auto;
+
+}
+.testimonial blockquote{
+  border: 0;
+font-family: Georgia,sans-serif;
+    font-style: italic;
+    padding: 6px 150px;
+    position: relative;
+    
+
+}
+.testimonial blockquote p{
+
+    color: #fff;
+  
+
+}
+.testimonial blockquote ::before,
+.testimonial blockquote ::after{
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1px;
+    width:30px;
+    height: 30px;
+    position: absolute;
+}
+.testimonial blockquote ::before{
+  content: "\201C";
+    top:0px
+    left: 100px;
+      
+}
+.testimonial blockquote ::after{
+  content: "\201D";
+    bottom:0;
+    right: 100px;
+}
+.testimonial-auter p{
+  color: #fff;
+  font-size: 17px;
+}
+.testimonial-auter p strong{
+   display: block;
+}
+/*============================================
+                   PRICING
+================================================*/
+
+.pricing-box{
+    border: 3px solid #34c6d3;
+    padding: 58px 0;
+    margin: 40px 0;
+
+}
+h4.pricing-title{
+
+ background-color: #34c6d3;
+color:#fff;
+    display: inline-block;
+    padding:  7px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+h3.pricing-value{
+    font-size: 60px;
+    font-weight: normal;
+    }
+h3.pricing-value sup{
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+}
+ul.pricing-space{
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 68px 0;
+}
+ul.pricing-space li p{
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.pricing-box-lg{
+   padding: 90px 0;
+    margin: 0;
+    background-color: #34c6d3;
+}
+.pricing-box-lg h4.pricing-title{
+    color: #34c6d3;
+    background-color: #fff;
+}
+.pricing-box-lg ul.pricing-space li p{
+    color: #fff;
+}
+
+/*============================================
+                   PSTATS
+================================================*/
+
+#stats-cover{
+ background-image:url("../img/bg-stats.jpg");
+}
+#stats.content-box{
+    background-color: rgda(0,0,0,0.9);
+}
+.stats-item{
+    padding: 100px 0;
+}
+.stats-item i{
+  color: #34c6d3;
+}
+.stats-item h2{
+  color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+
+}
+.stats-item p{
+ color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+    
+ 
+}
+
+/*============================================
+                  CLIENT
+================================================*/
+
+.client{
+  padding: 40px 0;
+
+}
+
+/*============================================
+                 CONTACT
+================================================*/
+
+footer{
+  background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0,0,0.1);
+   
+}
+#contact-left h3{
+  color: #fff;
+font-size: 27px;
+    font-weight: 700;
+
+
+}
+#contact-left p{
+  color: #fff;
+    margin-bottom: 30px;
+    
+
+}
+#contact-right h3{
+  color: #fff;
+  
+    
+
+}
+.contact-info{
+   background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+address{
+ color: fff;
+     
+
+}
+address strong,
+#phone-email strong{
+  letter-spacing: 1px;
+}
+
+.form-control{
+    background:transparent;
+    border-radius:0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 5px 5px;
+    margin-bottom: 8px;
+    color: #fff;
+
+}
+ /*============================================
+                 FOOTER
+================================================*/
+
+
+#footer-bottom{
+ background-color: rgba(0,0,0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+    
+} 
+#footer-copeyrights p{
+    margin: 0;
+    color: #fff;
+    
+}
+#footer-menu{
+ float: left;
+color: #fff;
+font-size: 16px ;
+font-weight: 300;
+  
+}
+#footer-menu ul{
+   list-style: none;
+    padding-left: 0;
+    margin: 0;
+      
+}
+#footer-menu ul li{ 
+  display: inline-block;
+}
+#footer-menu a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#footer-menu a:hover{
+ color: #34c6d3;
+}
+
+/*============================================
+               NAVIGATIONBAR
+================================================*/
+
+.navbar{
+
+padding: 20px 0;
+    transition: all .5s ease-in-out; 
+    
+}
+.vesco-top-nav{
+  background:rgba(0,0,0,0.7);
+padding: 7px 0;
+
+}
+.vesco-nav-wraper{
+ padding: 0 65px;
+
+}
+.navbar-nav{
+   float: right;
+}
+.navbar-nav>li>a{
+color: #fff;
+font-size: 15px;
+text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+.navbar-nav>li>a:hover,.navbar-nav>li>a:focus{
+ background: none;
+    color: #34c6d3;
+
+}
+.navbar-toggle{
+   background: rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+
+}
+.icon-bar{
+    
+  background-color: #fff;
+    
+}
+.navbar-collapse{
+  max-height: none !important;
+
+}
+.vesco-top-nav ul.navbar-nav>li.active>a{
+  color: #34c6d3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
