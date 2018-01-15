@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{ 
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    background: #ededed;
+    text-align: justify;
+}
+
+
+/*==========navigation bar*/
+
+/*===================================*/
+    /*Menu*/
+/*===================================*/
+
+.navbar{
+  padding: 20px 0px;
+  transition: all .5s ease-in-out;
+}
+.jobs-top-nav{
+  background: transparent;
+  padding: 15px 0;
+}
+.job-nav{
+  padding: 0 40px;
+}
+.navbar-nav{
+  float: right;
+}
+.navbar-nav > li > a{
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+  background: none;
+  color: #34c6d3;
+}
+.navbar-toggle{
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+.navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+.navbar-collapse{
+  max-height: none !important;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li{
+    background: #277dc7;
+    color: #fff;
+    font-size: 14px;
+  text-transform: uppercase;
+    
+  border-radius: 5px;
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 10px;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+    background: #277dc7;
+    color: #34c6d3;
+    letter-spacing: 1px;
+    font-weight: 700;
+  border-radius: 5px;    
+} 
+
+ul li ul.dropdown-menu{
+    /*min-width: 100%;  Set width of the dropdown */
+    background: none;
+    display: none;
+    position: absolute;
+    z-index: 999;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 700;
+    left: 0;
+}
+ul li:hover ul.dropdown-menu{
+    display: block; /* Display the dropdown */
+    background-color: #277dc7;
+}
+ul li ul.dropdown-menu li{
+    display: block;
+}
+
+.main-container{
+    background: #fff;
+    margin-top: 112px;
+    background-position: center;
+scroll-behavior: smooth;
+    border-radius: 10px 10px 10px 10px;     
+    
+}
+
+.container{
+ margin-bottom: 20px;
+}

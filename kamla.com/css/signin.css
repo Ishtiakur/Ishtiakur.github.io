@@ -1,0 +1,36 @@
+body {
+    background: #F0F0F0;
+}
+
+#login-form{
+    background: #FFFFFF;
+    border-radius: solid 2px #fff;
+   padding: 20px;
+    margin-top: 20px;
+}
+
+#phone{
+    margin: 20px 5px;    
+}
+
+#pass{
+    margin: 20px 2px;
+}
+.account-wall{
+    padding: 20px;
+}
+.account-wall img{
+    height: 100px;
+    width: 100px;
+}
+
+#checkbox{
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+
+
+#signup{
+    text-align: center;
+}

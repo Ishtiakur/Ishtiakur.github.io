@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="short icon" href="img/logo.jpg">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/worker-profile-item.css">
+    <title>Worker Profile Item</title>
+</head>
+<body>
+    
+    <!-- ==================================================== -->
+    <!-- header section -->
+    <!-- ==================================================== -->
+
+    <div class="wrapper container-fluid navbar-fixed-top" id="my-menu">
+        <div id="main-header">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="logo_class">
+                            <a href="index.html"><img class="img-responsive" src="img/logo.jpg" style="height: 54px"></a>
+                        </div>
+                    <!--</div>
+                    <!--<div class="col-md-1"></div>
+                    <div class="col-md-10">-->
+                        <nav class="mynavbar navbar navbar-default" id="menu">
+                            <div class="container">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-right: 10%">
+                                    <ul class="nav navbar-nav myUl ">
+                                        <li class="dropdown mydropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hire Worker<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="post.html">Post a Jobs</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Find Worker</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown mydropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Find Works<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="work.html">Browse Jobs</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Browse Categories</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="index.html">How It Works<span class="sr-only">(current)</span></a></li>
+
+
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+
+                                        <li><a href="signin.html">Log In</a></li>
+                                        <li><a href="register.html">Sign Up</a></li>
+                                        <li><a class="btn btn-outline-primary " id="mybtn" role="button" href="post.html">Write Your Post</a></li>
+
+
+
+                                    </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </div>
+                            <!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Search navigation -->
+
+    <div class="container">
+        <div class="container" id="search-menu">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <div id="locationbtn">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary btn-lg" id="mybtn" data-toggle="modal" data-target="#location">Select Locaion</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="location" tabindex="-1" role="dialog" aria-labelledby="locationModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="locationModalLabel">Select Yout Location</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--vertical navigation for location-->
+                                        <ul class="nav flex-column">
+
+                                            <!--list of Dhaka Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Dhaka<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">NarayanGonj</a> </li>
+                                                    <li><a href="#">Mymensingh </a> </li>
+                                                    <li><a href="#">Foridpur</a> </li>
+                                                    <li><a href="#">Tangail</a> </li>
+                                                </ul>
+                                            </li>
+                                            <li class="divider"></li>
+
+                                            <!--list of Chittagong  Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Chittagong<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Comilla</a> </li>
+                                                    <li><a href="#">Feni </a> </li>
+                                                    <li><a href="#">Noahkhali</a> </li>
+                                                    <li><a href="#">Brahmmanbaria</a> </li>
+                                                    <li><a href="#">Chadpur</a> </li>
+                                                </ul>
+                                            </li>
+
+                                            <!--list of Sylhet Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#" href="#">Sylhet<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Jindabazar</a> </li>
+                                                    <li><a href="#">Bondorbazar </a> </li>
+                                                    <li><a href="#">Amberkhan</a> </li>
+                                                    <li><a href="#">Uposhohor</a> </li>
+                                                    <li><a href="#">Bagbari</a> </li>
+
+                                                </ul>
+                                            </li>
+
+                                            <!--list of Khulna Division-->
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Khulna<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Jossore</a> </li>
+                                                    <li><a href="#">Kushtia </a> </li>
+                                                    <li><a href="#">Jhinaidhoho</a> </li>
+                                                    <li><a href="#">Sathkhira</a> </li>
+                                                    <li><a href="#">Bagerhat</a> </li>
+
+                                                </ul>
+                                            </li>
+
+                                            <!--list of Barishal Division-->
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Barishal <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Potuakhali</a> </li>
+                                                    <li><a href="#">Vhula </a> </li>
+                                                    <li><a href="#">Pirojpur</a> </li>
+                                                    <li><a href="#">Jhalokathi</a> </li>
+                                                    <li><a href="#">Borguna</a> </li>
+                                                </ul>
+
+                                            </li>
+
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Rajshahi <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Pabna</a> </li>
+                                                    <li><a href="#">Bogra </a> </li>
+                                                    <li><a href="#">Natore</a> </li>
+                                                    <li><a href="#">Sirajgonj</a> </li>
+                                                    <li><a href="#">Nouga</a> </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Rangpur <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu dropup myDropdown ">
+                                                    <li><a href="#">Dinajpur</a> </li>
+                                                    <li><a href="#">Kurigram </a> </li>
+                                                    <li><a href="#">Gaibanda</a> </li>
+                                                    <li><a href="#">Sayedpur</a> </li>
+                                                    <li><a href="#">Thakurgoan</a> </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-outline-primar" id="mybtn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div id="categories">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary btn-lg" id="mybtn" data-toggle="modal" data-target="#exampleModal">
+                      Select Category
+                    </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Select Your Categories</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <ul class="nav flex-column">
+
+                                            <!--list of Electroncis Services Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electronics Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Computer Services</a> </li>
+                                                    <li><a href="#">Mobile</a> </li>
+                                                    <li><a href="#">Telivision </a> </li>
+                                                    <li><a href="#">Fridge </a> </li>
+                                                    <li><a href="#">Air Condition</a> </li>
+                                                </ul>
+                                            </li> 
+                                           
+                                           <!--list of Electrical Services Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electrical Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Fan </a> </li>
+                                                    <li><a href="#">Electric Related Problem </a> </li>
+                                                </ul>
+                                            </li> 
+                                           
+                                           <!--list of House Hold Servces Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">House Hold Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Dry Wash  </a> </li>
+                                                    <li><a href="#">Gash Stove Repair </a> </li>
+                                                    <li><a href="#">Others </a> </li>
+                                                </ul>
+                                            </li> 
+                                           
+                                           <!--list of Home Tutor Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Tutor<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Male </a> </li>
+                                                    <li><a href="#">Female </a> </li>
+                                                    
+                                                </ul>
+                                            </li> 
+                                           
+                                           <!--list of Home Tutor Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Service <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Cleaner </a> </li>
+                                                    <li><a href="#">Gardener</a> </li>
+                                                    <li><a href="#">Day lobour</a> </li>
+                                                    <li><a href="#">Others</a> </li>
+                                                    
+                                                </ul>
+                                            </li> 
+                                        </ul>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-primary " id="mybtn" data-dismiss="modal">Close</button>                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div id="searchbar">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                            <span class="input-group-btn">
+                            <button class="btn" id="mybtn" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Work Item-->
+    <div class="container" id="worker-profile-item">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-2" id="side-menu">
+                    <div id="form-group">
+                        <label for="input-catagory">Category</label>
+                        <select id="category" class="form-control">
+                            <option selected>All Category</option>
+                            <option value="1">Computer</option>
+                            <option value="2">House Worker</option>
+                            <option value="3">Car</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-location">Location</label>
+                        <select id="location" class="form-control">
+                            <option selected>All Location</option>
+                            <option value="1">Sylhet</option>
+                            <option value="2">Dhaka</option>
+                            <option value="3">Sunamgonj</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="col-md-10" id="profile-item">
+                    <div class="col-md-4 card" id="card" >
+                      <!-- <img class="card-img-top" id="card-img" src="img/logo.jpg" alt="Card image cap"> -->
+                      <div class="card-body" id="card-body">
+                        <h5 class="card-title">Saif</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" id="btn">View Profile</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 card" id="card">
+                      <!-- <img class="card-img-top" id="card-img" src="img/logo.jpg" alt="Card image cap"> -->
+                      <div class="card-body" id="card-body">
+                        <h5 class="card-title">Shipu</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" id="btn">View Profile</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 card" id="card" >
+                      <!-- <img class="card-img-top" id="card-img" src="img/logo.jpg" alt="Card image cap"> -->
+                      <div class="card-body" id="card-body">
+                        <h5 class="card-title">Rayhan</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" id="btn">View Profile</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 card" id="card" >
+                      <!-- <img class="card-img-top" id="card-img" src="img/logo.jpg" alt="Card image cap"> -->
+                      <div class="card-body" id="card-body">
+                        <h5 class="card-title">Tazu</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" id="btn">View Profile</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 card" id="card" >
+                      <!-- <img class="card-img-top" id="card-img" src="img/logo.jpg" alt="Card image cap"> -->
+                      <div class="card-body" id="card-body">
+                        <h5 class="card-title">Sujon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" id="btn">View Profile</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 card" id="card">
+                      <!-- <img class="card-img-top" id="card-img" src="img/logo.jpg" alt="Card image cap"> -->
+                      <div class="card-body" id="card-body">
+                        <h5 class="card-title">Shipon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" id="btn">View Profile</a>
+                      </div>
+                    </div>
+                </div>
+                <!--<div class="col-md-2">
+                </div>-->
+            </div>    
+        </div>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/npm.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+</body>
+</html>

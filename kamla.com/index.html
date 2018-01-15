@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- google fonts -->
+	<!--<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">-->
+	 <link rel="short icon" href="img/logo.jpg">
+	
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+     <!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/myresponsive.css"/>
+    
+    <title>Earn Easy</title>
+	
+ <style type="text/css">
+.carousel-inner img{width:100%;max-height:700px;}
+ /*.bs-slider{height: 80%; }*/
+}
+</style> 
+</head>
+
+<body>
+
+    <!-- ==================================================== -->
+    <!-- header section -->
+    <!-- ==================================================== -->
+
+    <header>
+		<div class="navbar jobs-top-nav navbar-fixed-top" role="navigation">
+			<div class="consequat-fluid">
+				<div class="job-nav">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#jobs-menu">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						
+                        <a class="navbar-brand" href="index.html">
+							<img class="img-responsive" src="img/logo.jpg" style="height: 40px">
+						</a>
+                        
+					</div>
+					<div class="collapse navbar-collapse" id="jobs-menu">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li class="dropdown">
+								<a href="#">Hire Worker<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="post.html">Post a Jobs</a></li>
+									<!-- <li class="divider"></li> -->
+									<li><a href="#hire_worker">Find Worker</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#">Find Work<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="post.html">Browse Jobs</a></li>
+									<!-- <li class="divider"></li> -->
+									<li><a href="#">Browse Categories</a></li>
+								</ul>
+							</li>
+							<li><a href="#">How it Work</a></li>
+							<li><a href="#">Log In</a></li>
+							<li><a href="#">Sign Up</a></li>
+							<li>    <a  type=" button" id="mybtn" class="btn btn-outline-primary btn-lg"href="#">Write Your Post</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+   <!--=====================================================--> 
+            <!--Slider bootstrap carousel-->
+   <!--=====================================================--> 
+	
+	<div id="myCarousel" class="carousel slide  bs-slider      " data-interval="10000" data-ride="carousel">
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+	   <img src="img/dark sky.jpg" alt="Los Angeles">
+        <div class="bs-slider-overlay"></div>
+
+	  <div class="carousel-caption">
+		<div class="wrapper" id="home">
+			<!--  for slider heading and button -->
+            <div id="home-content-box">
+                <div id="home-content-box-inner">
+                    <div id="home-heading">
+                        <h1 class="animated fadeInLeft" >Hire Your Desired Employee in online </h1>
+                        <h3 class="animated fadeInLeft" style="color:#fff">Millions of people at your service...</h3>
+                    </div>
+                    <div id="home-btn">
+                        <a class="btn btn-outline-primary btn-lg animated fadeInUp delay" href="post.html" id="mybtn" role="button">I want to Hire</a>
+						
+                        <a class="btn btn-outline-primary btn-lg animated fadeInUp delay spacebtn" href="#" role="button" id="mybtn">I want to Work</a>
+                     </div>
+                 </div>
+             </div>
+       </div>
+	  </div>
+    </div>
+
+    <div class="item">
+      <img src="img/dark sky 2.jpg" alt="Chicago">
+       <div class="bs-slider-overlay"></div>
+
+	  <div class="carousel-caption">
+		<div id="home-content-box">
+                <div id="home-content-box-inner">
+                    <div id="home-heading">
+                        <h1 class="animated fadeInLeft" >We Provide Your Demand</h1>
+                        <h3 class="animated fadeInLeft" style="color:#fff">You Are offered With Numerous Job Facilities</h3>
+                    </div>
+                    <div id="home-btn">
+                        <a class="btn btn-outline-primary btn-lg animated fadeInUp delay" href="post.html" id="mybtn" role="button">I want to Hire</a>
+						
+                        <a class="btn btn-outline-primary btn-lg animated fadeInUp delay spacebtn" href="#" role="button" id="mybtn">I want to Work</a>
+                     </div>
+                 </div>
+             </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/dark sky 3.jpg" alt="New York">
+       <div class="bs-slider-overlay"></div>
+
+	  <div class="carousel-caption">
+		<div id="home-content-box">
+                <div id="home-content-box-inner">
+                    <div id="home-heading">
+                        <h1 class="animated fadeInLeft" >We Provide Your Demand</h1>
+                        <h3 class="animated fadeInLeft" style="color:#fff">Millions of Job Available Here For You</h3>
+                    </div>
+                    <div id="home-btn">
+                        <a class="btn btn-outline-primary btn-lg animated fadeInUp delay" href="post.html" id="mybtn" role="button">I want to Hire</a>
+						
+                        <a class="btn btn-outline-primary btn-lg animated fadeInUp delay spacebtn" href="#" role="button" id="mybtn">I want to Work</a>
+                     </div>
+                 </div>
+             </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left"></span>
+     <span class="sr-only">Previous</span> 
+  </a> 
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right"></span> 
+     <span class="sr-only">Next</span> 
+   </a>
+</div>
+	 <!--================================================================================================--> 
+									<!--Slider bootstrap carousel end-->
+	 <!--================================================================================================--> 
+    
+    
+    
+    
+    <!-- ==================================================Search navigation======================================= -->
+<section  id="hire_worker">
+    <div class="container-fluid">
+        <div class="container" id="search-menu">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <div id="locationbtn">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary btn-lg" id="mybtn" data-toggle="modal" data-target="#location">Select Locaion</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="location" tabindex="-1" role="dialog" aria-labelledby="locationModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="locationModalLabel">Select Yout Location</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--vertical navigation for location-->
+                                        <ul class="nav flex-column">
+
+                                            <!--list of Dhaka Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Dhaka<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">NarayanGonj</a> </li>
+                                                    <li><a href="#">Mymensingh </a> </li>
+                                                    <li><a href="#">Foridpur</a> </li>
+                                                    <li><a href="#">Tangail</a> </li>
+                                                </ul>
+                                            </li>
+                                            <li class="divider"></li>
+
+                                            <!--list of Chittagong  Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Chittagong<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Comilla</a> </li>
+                                                    <li><a href="#">Feni </a> </li>
+                                                    <li><a href="#">Noahkhali</a> </li>
+                                                    <li><a href="#">Brahmmanbaria</a> </li>
+                                                    <li><a href="#">Chadpur</a> </li>
+                                                </ul>
+                                            </li>
+
+                                            <!--list of Sylhet Division-->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#" href="#">Sylhet<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Jindabazar</a> </li>
+                                                    <li><a href="#">Bondorbazar </a> </li>
+                                                    <li><a href="#">Amberkhan</a> </li>
+                                                    <li><a href="#">Uposhohor</a> </li>
+                                                    <li><a href="#">Bagbari</a> </li>
+
+                                                </ul>
+                                            </li>
+
+                                            <!--list of Khulna Division-->
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Khulna<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Jossore</a> </li>
+                                                    <li><a href="#">Kushtia </a> </li>
+                                                    <li><a href="#">Jhinaidhoho</a> </li>
+                                                    <li><a href="#">Sathkhira</a> </li>
+                                                    <li><a href="#">Bagerhat</a> </li>
+
+                                                </ul>
+                                            </li>
+
+                                            <!--list of Barishal Division-->
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Barishal <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Potuakhali</a> </li>
+                                                    <li><a href="#">Vhula </a> </li>
+                                                    <li><a href="#">Pirojpur</a> </li>
+                                                    <li><a href="#">Jhalokathi</a> </li>
+                                                    <li><a href="#">Borguna</a> </li>
+                                                </ul>
+
+                                            </li>
+
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Rajshahi <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu myDropdown">
+                                                    <li><a href="#">Pabna</a> </li>
+                                                    <li><a href="#">Bogra </a> </li>
+                                                    <li><a href="#">Natore</a> </li>
+                                                    <li><a href="#">Sirajgonj</a> </li>
+                                                    <li><a href="#">Nouga</a> </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Rangpur <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                <ul class="dropdown-menu dropup myDropdown ">
+                                                    <li><a href="#">Dinajpur</a> </li>
+                                                    <li><a href="#">Kurigram </a> </li>
+                                                    <li><a href="#">Gaibanda</a> </li>
+                                                    <li><a href="#">Sayedpur</a> </li>
+                                                    <li><a href="#">Thakurgoan</a> </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-outline-primar" id="mybtn" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                        <div id="categories">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-primary btn-lg" id="mybtn" data-toggle="modal" data-target="#exampleModal">
+                          Select Category
+                        </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Select Your Categories</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                                        </div>
+                                        <div class="modal-body">
+                                           <ul class="nav flex-column">
+
+                                                <!--list of Electroncis Services Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electronics Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Computer Services</a> </li>
+                                                        <li><a href="#">Mobile</a> </li>
+                                                        <li><a href="#">Telivision </a> </li>
+                                                        <li><a href="#">Fridge </a> </li>
+                                                        <li><a href="#">Air Condition</a> </li>
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of Electrical Services Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electrical Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Fan </a> </li>
+                                                        <li><a href="#">Electric Related Problem </a> </li>
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of House Hold Servces Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">House Hold Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Dry Wash  </a> </li>
+                                                        <li><a href="#">Gash Stove Repair </a> </li>
+                                                        <li><a href="#">Others </a> </li>
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of Home Tutor Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Tutor<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Male </a> </li>
+                                                        <li><a href="#">Female </a> </li>
+
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of Home Tutor Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Service <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Cleaner </a> </li>
+                                                        <li><a href="#">Gardener</a> </li>
+                                                        <li><a href="#">Day lobour</a> </li>
+                                                        <li><a href="#">Others</a> </li>
+
+                                                    </ul>
+                                                </li> 
+                                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                               <button type="button" class="btn btn-outline-primary " id="mybtn" data-dismiss="modal">Close</button>
+
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="col-md-6">
+                <div id="searchbar">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                        <span class="input-group-btn">
+                        <button class="btn" id="mybtn" type="button" >Go!</button>
+                      </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+
+        </div>
+    </div>
+</div>
+
+</section>    
+
+    <!-- =========================================== -->
+    <!-- documentation secttion and recent posted jobs -->
+    <!-- =========================================== -->
+    
+<section id="">
+    <div class="wrapper">
+        <div class="container">
+            <div class="row" id="description">
+                <div class="col-md-7">
+                    <h3>Need work done?</h3>
+                    <p>Post your project and receive competitive bids from freelancers within minutes. Our reputation system will make it easy to find the perfect freelancer for your job. It's the simplest and safest way to get work done online.</p>
+                    <p>We have millions of Freelancers for thousands of freelance jobs: from web design, mobile app development, virtual assistants, product manufacturing and graphic design. Whatever your needs, there will be a freelancer to get it done.</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="newsfeed_area wow fadeInRight">
+                        <h2 style="color: #000">Recent Posted Jobs</h2>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <!-- Start news tab content -->
+                            <div class="tab-pane fade in active" id="news">
+                                <ul class="news_tab">
+                                    <li>
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <a class="news_img" href="#">
+					                          <img class="media-object" src="img/news.jpg" alt="img">
+					                        </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href="#">Dummy text of the printing and typesetting industry</a>
+                                                <span class="feed_date">27.02.15</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <a class="news_img" href="#">
+					                          <img class="media-object" src="img/news.jpg" alt="img">
+					                        </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href="#">Dummy text of the printing and typesetting industry</a>
+                                                <span class="feed_date">28.02.15</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <a class="news_img" href="#">
+						                          <img class="media-object" src="img/news.jpg" alt="img">
+						                       </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href="#">Dummy text of the printing and typesetting industry</a>
+                                                <span class="feed_date">28.02.15</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a class="see_all" href="#">See All</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- =========================================== -->
+    <!-- documentation secttion and recent posted jobs closed -->
+    <!-- =========================================== -->
+
+
+    <!-- =========================================== -->
+    <!-- category section start -->
+    <!-- =========================================== -->
+
+    <section id="services">
+
+        <div class="content-box">
+            <div class="content-title animated fadeInDown" data-animated-duration="1s" data-animated-delay=".5s">
+
+                <div class="devider text-center" style="font-size: 30px"> Get Your Work Start Now </div>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+
+                <div class="row animated fadeInUp" data-animated-duration="1s" data-animated-delay=".5s">
+
+                    <div class="col-md-4">
+
+                        <div class="service-item">
+
+                            <div class="service-item-icon">
+
+                                <i class="fa fa-paint-brush fa-3x"></i>
+
+                            </div>
+                            <div class="service-icon-title">
+                                <a href="#">
+                                    <h3> Web Design</h3>
+                                </a>
+                            </div>
+                            <div class="service-item-desc">
+                                <p>Contrary to popular belief text. </p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="service-item">
+
+                            <div class="service-item-icon">
+
+                                <i class="fa fa-laptop fa-3x"></i>
+
+                            </div>
+                            <div class="service-icon-title">
+                                <a href="#">
+                                    <h3> Web Design</h3>
+                                </a>
+                            </div>
+                            <div class="service-item-desc">
+                                <p>Contrary to popular belief text. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="service-item">
+
+                            <div class="service-item-icon">
+
+                                <i class="fa fa-tablet fa-3x"></i>
+
+                            </div>
+                            <div class="service-icon-title">
+                                <a href="#">
+                                    <h3> Web Design</h3>
+                                </a>
+                            </div>
+                            <div class="service-item-desc">
+                                <p>Contrary to popular beliefs text. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="service-item">
+
+                            <div class="service-item-icon">
+
+                                <i class="fa fa-search fa-3x"></i>
+
+                            </div>
+                            <div class="service-icon-title">
+                                <a href="#">
+                                    <h3> Web Design</h3>
+                                </a>
+                            </div>
+                            <div class="service-item-desc">
+                                <p>Contrary to popular Ipsumtext. </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="service-item">
+
+                            <div class="service-item-icon">
+
+                                <i class="fa fa-pencil-square-o fa-3x"></i>
+
+                            </div>
+                            <div class="service-icon-title">
+                                <a href="#">
+                                    <h3> Web Design</h3>
+                                </a>
+                            </div>
+                            <div class="service-item-desc">
+                                <p>Contrary to popular belief text. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="service-item">
+
+                            <div class="service-item-icon">
+
+                                <i class="fa fa-life-ring fa-3x"></i>
+
+                            </div>
+                            <div class="service-icon-title">
+                                <a href="#">
+                                    <h3> Web Design</h3>
+                                </a>
+                            </div>
+                            <div class="service-item-desc">
+                                <p>Contrary to popular belief text. </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- =========================================== -->
+    <!-- category section closed -->
+    <!-- =========================================== -->
+
+
+    <!--
+        Some fun facts
+        ==================================== -->
+
+    <section id="facts" class="facts">
+        <div class="parallax-overlay">
+            <div class="container">
+                <div class="row number-counters">
+
+                    <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+                        <h2>Some Fun Facts</h2>
+                        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                    </div>
+
+                    <!-- first count item -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+                        <div class="counters-item">
+                            <i class="fa fa-clock-o fa-3x"></i>
+                            <strong data-to="3200">0</strong>
+                            <!-- Set Your Number here. i,e. data-to="56" -->
+                            <p>Registered User</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="counters-item">
+                            <i class="fa fa-users fa-3x"></i>
+                            <strong data-to="120">0</strong>
+                            <!-- Set Your Number here. i,e. data-to="56" -->
+                            <p>Total Posted Work</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <div class="counters-item">
+                            <i class="fa fa-rocket fa-3x"></i>
+                            <strong data-to="360">0</strong>
+                            <!-- Set Your Number here. i,e. data-to="56" -->
+                            <p>Complete Work</p>
+                        </div>
+                    </div>
+
+                    <!-- end first count item -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+        End Some fun facts
+        ==================================== -->
+
+    <!--
+        Start Footer
+        ==================================== -->
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+                    <div class="footer-single">
+                        <img src="img/footer-logo.png" alt="">
+                        <p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="footer-single">
+                        <h6>Subscribe </h6>
+                        <form action="#" class="subscribe">
+                            <input type="text" name="subscribe" id="subscribe">
+                            <input type="submit" value="&#8594;" id="subs">
+                        </form>
+                        <p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="footer-single">
+                        <h6>Explore</h6>
+                        <ul>
+                            <li><a href="#">Inside Us</a></li>
+                            <li><a href="#">Flickr</a></li>
+                            <li><a href="#">Google</a></li>
+                            <li><a href="#">Forum</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="footer-single">
+                        <h6>Support</h6>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Market Blog</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Pressroom</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright text-center">
+                        Copyright © 2017 <a href="#">Tech-Net</a>. All rights reserved. Designed & developed by <a href="#">Tech-Net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" title="home" role="button">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+
+
+    <!--
+        End Footer
+        ==================================== -->
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/npm.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	
+	<!-- <script src="js/bootstrap-dropdownhover.min.js"></script> -->
+    
+    
+
+
+</body>
+
+</html>

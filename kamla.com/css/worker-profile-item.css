@@ -1,0 +1,146 @@
+body{
+    background: #ededed;
+}
+/*===================================*/
+		/*Menu*/
+/*===================================*/
+
+#main-header{ background: #3498DB  }
+
+#my-menu{
+  background-color: #FCFCFC;  /*total menu and search background color*/
+  margin: 0;
+  padding: 0;
+
+}
+
+.mynavbar { margin-bottom: 0px; margin: 0; padding: 0; }
+
+#menu{
+	border: 0px;
+    background: #3498DB; /*only menu background*/
+	box-shadow: none;
+
+}
+#menu ul li a{
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  text-align: center;
+    display: block;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  background: #206593;
+  border: 1px solid #206593;
+  border-radius: 5px; 
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+  background: #206593;
+     
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li{
+  background: #3498DB;
+  color: #fff;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+  background: #206593;
+  color: #fff;
+  
+}
+.dropdown-menu > li > a{
+  padding-top: 10px;
+}
+.dropdown-menu{
+  padding: 0px 0px
+}
+
+/*=======divider */
+.dropdown-menu .divider{ margin: 0; padding: 0; }
+
+/*===================================*/
+        /*search menu css*/
+/*===================================*/
+
+#search-menu{
+    color: black;
+    margin-top: 70px;
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.flex-column li{
+    background: #ddd;
+}
+
+.flex-column li a{
+    display: block;
+}
+.flex-column li a:hover{
+    background: #206593;
+    color: #fff;
+}
+.nav .flex-column .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background: #206593;
+    color: #fff;    
+}
+
+ul.dropdown-menu.myDropdown{
+    margin-left: 145px;
+    margin-top: -41px;
+}
+
+.modal-body ul li{
+    background: #fff;
+    color: black;
+    }
+.modal-body ul li a{
+    color: black;
+    
+}
+
+#searchbar{
+    padding: 8px;
+}
+
+#mybtn{
+    background: #3498DB;  
+    border: 1px solid #e6fffc;
+    
+}
+#mybtn:hover{
+    background: #206593; 
+    color: #fff;
+}
+/*#mybtn a:hover{background: #669999; }*/
+
+/*worker profile item*/
+
+#worker-profile-item{
+    background: #fff;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#side-menu{
+    border-right: 3px solid #ededed;
+}
+
+#card{
+    margin: 10px
+}
+
+#card-body{
+    background: #fff;
+    border: 1.5px solid #ededed;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+#btn{
+    
+}

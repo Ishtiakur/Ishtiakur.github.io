@@ -1,0 +1,42 @@
+@media only screen and (max-width: 390px) {
+    
+	.jobs-top-nav{
+	  background: #277DC7;
+	  padding: 15px 0;
+	}
+	
+	.carousel-caption {
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+
+    .carousel-caption h1 {
+		display: none;		
+	}
+	.carousel-caption h3 {
+		display: none;		
+	}
+	.spacebtn {
+        margin-top: 15px;
+
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width: 391px) {
+
+	.carousel-caption {
+		vertical-align: middle;
+
+	}
+	
+
+    .spacebtn {
+        margin-top: 0px;
+
+    }
+} 
