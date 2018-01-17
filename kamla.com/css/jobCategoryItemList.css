@@ -1,32 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body, html{ 
-    font-size: 17px;
-    font-family: sans-serif;
-    line-height: 1.5rem;
+body{
     background: #ededed;
-    text-align: justify;
+    color: #000;
+}
+
+h1,h2,h3{
+  color: #000 !important;
+}
+
+.card-text a{
+  color: black;
+}
+.btn{
+  color: black !important;
+}
+
+.itemHeadings{
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 100px;
+
 }
 
 
-/*==========navigation bar*/
 
-/*===================================*/
-    /*Menu*/
-/*===================================*/
+/*navigation bar general css*/
 
 .navbar{
+  padding: 20px 0px;
   transition: all .5s ease-in-out;
 }
 .jobs-top-nav{
-  background: #277DC7;
+  background: transparent;
+  padding: 15px 0;
 }
 .job-nav{
-  background: #277DC7;
- 
   padding: 0 40px;
 }
 .navbar-nav{
@@ -69,8 +76,8 @@ body, html{
     padding: 10px;
 }
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
-    background: #277dc7;
-    color: #34c6d3;
+    background: #277DC7;
+    color: #34BFD1;
     letter-spacing: 1px;
     font-weight: 700;
   border-radius: 5px;    
@@ -78,7 +85,7 @@ body, html{
 
 ul li ul.dropdown-menu{
     /*min-width: 100%;  Set width of the dropdown */
-    background: none;
+    background: #277dc7;
     display: none;
     position: absolute;
     z-index: 999;
@@ -90,21 +97,49 @@ ul li ul.dropdown-menu{
 }
 ul li:hover ul.dropdown-menu{
     display: block; /* Display the dropdown */
-    background-color: #277dc7;
 }
 ul li ul.dropdown-menu li{
     display: block;
 }
 
-.main-container{
+
+
+/*navigation bar general css closed*/
+
+/*banner css*/
+.jumbotron a{
+  color: #000;
+}
+p .card-text a{
+  color: #000;
+}
+
+
+/*-------job items list---------*/
+
+#card{
+    margin: 10px
+}
+
+#card-body{
     background: #fff;
-    margin-top: 112px;
-    background-position: center;
-scroll-behavior: smooth;
-    border-radius: 10px 10px 10px 10px;     
+    border: 1.5px solid #ededed;
+    border-radius: 5px;
+    padding: 10px;
     
 }
 
-.container{
- margin-bottom: 20px;
+#banner{
+	text-align: center;
+    background: #fff;
+    color: #000;
+	margin-top:60px;
 }
+#posted-job{
+	color: #000;
+}
+
+
+
+
+

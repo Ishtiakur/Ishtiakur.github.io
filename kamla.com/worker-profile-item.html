@@ -21,78 +21,60 @@
     <!-- header section -->
     <!-- ==================================================== -->
 
-    <div class="wrapper container-fluid navbar-fixed-top" id="my-menu">
-        <div id="main-header">
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-12">
-                        <div class="logo_class">
-                            <a href="index.html"><img class="img-responsive" src="img/logo.jpg" style="height: 54px"></a>
-                        </div>
-                    <!--</div>
-                    <!--<div class="col-md-1"></div>
-                    <div class="col-md-10">-->
-                        <nav class="mynavbar navbar navbar-default" id="menu">
-                            <div class="container">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-
-                                </div>
-
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-right: 10%">
-                                    <ul class="nav navbar-nav myUl ">
-                                        <li class="dropdown mydropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hire Worker<span class="caret"></span></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="post.html">Post a Jobs</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">Find Worker</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown mydropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Find Works<span class="caret"></span></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="work.html">Browse Jobs</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">Browse Categories</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="index.html">How It Works<span class="sr-only">(current)</span></a></li>
-
-
-                                    </ul>
-                                    <ul class="nav navbar-nav navbar-right">
-
-                                        <li><a href="signin.html">Log In</a></li>
-                                        <li><a href="register.html">Sign Up</a></li>
-                                        <li><a class="btn btn-outline-primary " id="mybtn" role="button" href="post.html">Write Your Post</a></li>
-
-
-
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </div>
-                            <!-- /.container-fluid -->
-                        </nav>
+    <header>
+        <div class="navbar jobs-top-nav navbar-fixed-top" role="navigation">
+            <div class="consequat-fluid">
+                <div class="job-nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#jobs-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        <a class="navbar-brand" href="index.html">
+                            <img class="img-responsive" src="img/logo.jpg" style="height: 40px; margin-top: -8px;">
+                        </a>
+                        
+                    </div>
+                    <div class="collapse navbar-collapse" id="jobs-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#">Hire Worker<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="post.html">Post a Jobs</a></li>
+                                    <!-- <li class="divider"></li> -->
+                                    <li><a href="#hire_worker">Find Worker</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Find Work<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="jobCategoryItemList.html">Browse Jobs</a></li>
+                                    <!-- <li class="divider"></li> -->
+                                    <li><a href="#">Browse Categories</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">How it Work</a></li>
+                            <li><a href="signin.html">Log In</a></li>
+                            <li><a href="register.html">Sign Up</a></li>
+                            <li>    <a  type=" button" id="mybtn" class="btn btn-outline-primary btn-lg"href="#">Write Your Post</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </header>
+
+
     <!-- Search navigation -->
 
-    <div class="container">
+
+
+<section>
+    <div class="container-fluid">
         <div class="container" id="search-menu">
             <div class="row">
 
@@ -210,104 +192,111 @@
                 </div>
 
                 <div class="col-md-2">
-                    <div id="categories">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-primary btn-lg" id="mybtn" data-toggle="modal" data-target="#exampleModal">
-                      Select Category
-                    </button>
+                        <div id="categories">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-primary btn-lg" id="mybtn" data-toggle="modal" data-target="#exampleModal">
+                          Select Category
+                        </button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Select Your Categories</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                                    </div>
-                                    <div class="modal-body">
-                                       <ul class="nav flex-column">
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Select Your Categories</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                                        </div>
+                                        <div class="modal-body">
+                                           <ul class="nav flex-column">
 
-                                            <!--list of Electroncis Services Division-->
-                                            <li class="nav-item dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electronics Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
-                                                <ul class="dropdown-menu myDropdown">
-                                                    <li><a href="#">Computer Services</a> </li>
-                                                    <li><a href="#">Mobile</a> </li>
-                                                    <li><a href="#">Telivision </a> </li>
-                                                    <li><a href="#">Fridge </a> </li>
-                                                    <li><a href="#">Air Condition</a> </li>
-                                                </ul>
-                                            </li> 
-                                           
-                                           <!--list of Electrical Services Division-->
-                                            <li class="nav-item dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electrical Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
-                                                <ul class="dropdown-menu myDropdown">
-                                                    <li><a href="#">Fan </a> </li>
-                                                    <li><a href="#">Electric Related Problem </a> </li>
-                                                </ul>
-                                            </li> 
-                                           
-                                           <!--list of House Hold Servces Division-->
-                                            <li class="nav-item dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">House Hold Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
-                                                <ul class="dropdown-menu myDropdown">
-                                                    <li><a href="#">Dry Wash  </a> </li>
-                                                    <li><a href="#">Gash Stove Repair </a> </li>
-                                                    <li><a href="#">Others </a> </li>
-                                                </ul>
-                                            </li> 
-                                           
-                                           <!--list of Home Tutor Division-->
-                                            <li class="nav-item dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Tutor<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
-                                                <ul class="dropdown-menu myDropdown">
-                                                    <li><a href="#">Male </a> </li>
-                                                    <li><a href="#">Female </a> </li>
-                                                    
-                                                </ul>
-                                            </li> 
-                                           
-                                           <!--list of Home Tutor Division-->
-                                            <li class="nav-item dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Service <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
-                                                <ul class="dropdown-menu myDropdown">
-                                                    <li><a href="#">Cleaner </a> </li>
-                                                    <li><a href="#">Gardener</a> </li>
-                                                    <li><a href="#">Day lobour</a> </li>
-                                                    <li><a href="#">Others</a> </li>
-                                                    
-                                                </ul>
-                                            </li> 
-                                        </ul>
-                                        
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-primary " id="mybtn" data-dismiss="modal">Close</button>                                       
-                                    </div>
-                                </div>
-                            </div>
+                                                <!--list of Electroncis Services Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electronics Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Computer Services</a> </li>
+                                                        <li><a href="#">Mobile</a> </li>
+                                                        <li><a href="#">Telivision </a> </li>
+                                                        <li><a href="#">Fridge </a> </li>
+                                                        <li><a href="#">Air Condition</a> </li>
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of Electrical Services Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Electrical Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Fan </a> </li>
+                                                        <li><a href="#">Electric Related Problem </a> </li>
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of House Hold Servces Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">House Hold Service<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Dry Wash  </a> </li>
+                                                        <li><a href="#">Gash Stove Repair </a> </li>
+                                                        <li><a href="#">Others </a> </li>
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of Home Tutor Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Tutor<i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Male </a> </li>
+                                                        <li><a href="#">Female </a> </li>
+
+                                                    </ul>
+                                                </li> 
+
+                                               <!--list of Home Tutor Division-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Home Service <i class="glyphicon glyphicon-triangle-right" style="padding-left: 15px;"></i></a>
+                                                    <ul class="dropdown-menu myDropdown">
+                                                        <li><a href="#">Cleaner </a> </li>
+                                                        <li><a href="#">Gardener</a> </li>
+                                                        <li><a href="#">Day lobour</a> </li>
+                                                        <li><a href="#">Others</a> </li>
+
+                                                    </ul>
+                                                </li> 
+                                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                               <button type="button" class="btn btn-outline-primary " id="mybtn" data-dismiss="modal">Close</button>
+
+                          </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6">
-                    <div id="searchbar">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-                            <span class="input-group-btn">
-                            <button class="btn" id="mybtn" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
+
+            <div class="col-md-6">
+                <div id="searchbar">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                        <span class="input-group-btn">
+                        <button class="btn" id="mybtn" type="button" >Go!</button>
+                      </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+
+        </div>
     </div>
+</div>
+
+</section>    
+
+<!-- SEARCH NAVIGATION CLODE -->
+
     
+
     <!--Work Item-->
     <div class="container" id="worker-profile-item">
         <div class="row">
@@ -333,6 +322,9 @@
                     </div>
                 </div>
                 
+				
+				<!-- this is for worker profile item list  -->
+				
                 <div class="col-md-10" id="profile-item">
                     <div class="col-md-4 card" id="card" >
                       <!-- <img class="card-img-top" id="card-img" src="img/logo.jpg" alt="Card image cap"> -->

@@ -47,7 +47,9 @@ body{
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
   background: none;
-  color: #34c6d3;
+  border-bottom: 1px solid #34C5D2;    
+  color: #fff;
+
 }
 .navbar-toggle{
   background-color: rgba(0,0,0,0.1);
@@ -75,8 +77,9 @@ body{
     padding: 10px;
 }
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
-    background: #277DC7;
-    color: #34BFD1;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #34C5D2;;
     letter-spacing: 1px;
     font-weight: 700;
   border-radius: 5px;    
@@ -159,7 +162,6 @@ ul.dropdown-menu.myDropdown{
     background: transparent; 
     border: 1px solid #34C6D3; 
     margin-right: 20px;
-    box-shadow: red;
 }
 
 #mybtn:hover{
@@ -260,7 +262,7 @@ ul.dropdown-menu.myDropdown{
   margin-top: 15px;
 }
 .news_tab li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #34C5D2;;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
@@ -292,7 +294,7 @@ ul.dropdown-menu.myDropdown{
   font-style: italic;
 }
 .see_all {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid #34C5D2;
   float: right;
   font-size: 16px;
     color: #000;
@@ -355,7 +357,7 @@ ul.dropdown-menu.myDropdown{
 }
 
 .service-item-icon i {
-    color: #3498DB;
+    color: #26a2ad;
     float: left;
     padding: 15px;
     margin-right: 25px;
@@ -367,7 +369,7 @@ ul.dropdown-menu.myDropdown{
 
 .service-item-icon i:hover {
     color: #fff;
-    background-color: #3498DB;
+    background-color: #26a2ad;
 
 }
 
@@ -553,13 +555,14 @@ a, a:focus, a:hover {
     outline: 0;
 }
 .footer {
-  background-color: #277DC7;
+  background-color: #29afbb;
   border-top: 5px solid #062033;
   color: #fff;
 }
 
 .footer a:hover {
-  color: #34C6D3;
+  color: #fff;
+    border-bottom: 1px solid #34C5D2;
 }
 
 .footer h6 {
