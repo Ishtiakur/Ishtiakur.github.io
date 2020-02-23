@@ -1,0 +1,49 @@
+.socila-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.icon-white i {
+    color: #FEC810;
+}
+
+.social-icon i {
+    font-size: 17px;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+  background-color: #2B2B2D;
+    color: #fff;
+}
+
+#footer_top{
+	background-color: #fff;
+	color: #000;
+
+}
+#contactForm{
+	color: #fff;
+}
+#contact-left{
+	background-color:#212529;
+	padding: 29px 74px 153px;
+	
+}
+.footer_contact{
+	margin-bottom: 50px;
+}
+
+section#contact .form-group textarea.form-control{
+	height:194px;
+
+}
+
+section#contact .form-group input, section#contact .form-group textarea{
+	padding: 15px
+}
